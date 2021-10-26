@@ -3,6 +3,8 @@ const form = document.getElementById('addForm');
 
 // Form submit event
 form.addEventListener('submit', addItem);
+// Delete event
+itemList.addEventListener('click', removeItem);
 
 // Add item
 function addItem(e) {
@@ -29,4 +31,14 @@ function addItem(e) {
   li.appendChild(deleteBtn);
   // Append li to list
   itemList.appendChild(li);
+}
+
+// Remove item
+function removeItem(e) {
+  if (e.target.classList.contains('delete')) {
+    if (confirm('Are you sure?')) {
+      const li = e.target.parentElement;
+      itemList.removeChild(li);
+    }
+  }
 }
