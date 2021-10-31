@@ -10,4 +10,4 @@ Traversy Media - JavaScript DOM Crash Course - Part 4 [Final Project]
 
 > Codepen https://codepen.io/bradtraversy/pen/Bwapow
 
-### **Thanks a lot to Traversy Media!!**
+### **Thanks a lot Traversy Media!!**
