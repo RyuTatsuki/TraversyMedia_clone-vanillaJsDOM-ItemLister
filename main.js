@@ -32,7 +32,7 @@ function addItem(e) {
 
   // Append del button to li
   li.appendChild(deleteBtn);
-  // Append li to list
+  // Append li to list
   itemList.appendChild(li);
 }
 
